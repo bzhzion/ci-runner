@@ -10,6 +10,11 @@ Ce fichier est créé le 2026-09-05, après la mise en service : les évolutions
 pas reconstituées, ce qui serait de la réécriture d'historique plutôt que de la documentation.
 L'historique git reste la source de vérité pour ce qui précède.
 
+## [Unreleased]
+
+### Modifié
+- `.gitignore` : toute variante `.env.*` est ignorée, sauf `.env.example`. Une copie de sauvegarde `.env.bak-*` porte les mêmes secrets que `.env` (règle de parc du 2026-11-03).
+
 ## [0.2.0] - 2026-09-25
 
 ### Modifié
